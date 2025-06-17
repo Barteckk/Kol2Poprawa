@@ -1,0 +1,6 @@
+@Kol2Poprawa_HostAddress = http://localhost:5132
+
+GET {{Kol2Poprawa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
