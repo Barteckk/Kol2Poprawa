@@ -34,9 +34,9 @@ namespace Kol2Poprawa.Controllers
             switch (result)
             {
                 case -100:
-                    return BadRequest("No items found with this id");
+                    return NotFound("No items found with this id");
                 case -200:
-                    return BadRequest("No character found with this id");
+                    return NotFound("No character found with this id");
                 case -300:
                     return BadRequest("Exceeds max weight limit");
                 default:
